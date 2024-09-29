@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Form </title>
     <style>
-        label{
-            display: block;
-            margin-bottom: 15px;
-        }
+      label{
+        display: block;
+        margin-bottom: 20px;
+      }
     </style>
 </head>
 <body>
-   <header>
+    <header>
 
-   </header> 
-   <main>
-    <section>
-        <h2>Please Fill Up The Form</h2>
+    </header>
+    <main>
+        <h2>Please Fill Up Form</h2>
         <form>
-            <label for="name">Your Name: 
-                <input id="name" type="text" placeholder="Your Name">
+            <label for="name"> Your Name:
+                <input type="text" placeholder="Your Name">
             </label>
-            <label for="email">Your E-mail
-                <input id="email" type="email" placeholder="Your Email">
+            <label for="email">Your E-mail:
+                <input type="email" name="email" id="email" placeholder="Your E-mail">
             </label>
-            <label for="phone">Your phone
+            <label for="phone">Your Phone:
                 <input type="text" placeholder="Your Phone">
             </label>
-
             <fieldset>
                 <legend>Pick One Pitha</legend>
                 <label for="chitoy">
@@ -37,35 +35,30 @@
                 <label for="vapa">
                     <input type="radio" name="pitha" id="vapa"> Vapa
                 </label>
-                <label for="">
-                    <input type="radio" name="pitha" id=" dimchitoy"> Dim Chitoy
+                <label for="puri">
+                    <input type="radio" name="pitha" id="puri">Puri
                 </label>
-            </fieldset> <br>
+            </fieldset>
             <fieldset>
-                <legend>Pic One or More Vorta</legend>
+                <legend>Please Select Vorta</legend>
                 <label for="sorisha">
-                    <input type="checkbox" name="sorisha" id="sorisha">Shorisha
+                    <input type="checkbox" name="sorisha" id="sorisha"> Shorisha
                 </label>
                 <label for="sutki">
-                    <input type="checkbox" name="sutki" id="sutki">Sutki
+                    <input type="checkbox" name="sutki" id="sutki"> Sutki
                 </label>
                 <label for="chili">
                     <input type="checkbox" name="chili" id="chili"> Chili
                 </label>
             </fieldset>
             <fieldset>
-                <legend> Special Instruction </legend>
-                <textarea name="" id="" cols="30" rows="3"></textarea>
-            </fieldset> <br>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
             <input type="reset" value="Reset">
             <input type="submit" value="Submit">
-
         </form>
-    </section>
-   </main>
-
-   <footer>
-
-   </footer>
+    </main>
+    <footer></footer>
 </body>
 </html>
